@@ -1,0 +1,16 @@
+{
+    "name": "tormorten/wpdb-builder",
+    "description": "Build database queries",
+    "authors": [
+        {
+            "name": "Tor Morten Jensen",
+            "email": "tormorten@tormorten.no"
+        }
+    ],
+    "require": {},
+	"autoload":	{
+		"psr-0": {
+			"WpdbBuilder": "src/"
+		}
+	}
+}
