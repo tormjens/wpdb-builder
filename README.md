@@ -10,6 +10,24 @@ Intended for plugin and theme developers craving sexier queries.
 
 First clone the repository.
 
+```
+git clone https://github.com/tormjens/wpdb-builder.git wpdb-builder
+```
+
+Run a composer install inside the repository to generate the autoload files
+
+```
+composer install
+```
+
+Start using the class. Its namespaced under WpdbBuilder
+
+```PHP
+use \WpdbBuilder\Builder;
+
+var_dump(( Builder::table( 'posts' )->all() );
+```
+
 ## Example
 
 A standard wpdb query looks something like:
